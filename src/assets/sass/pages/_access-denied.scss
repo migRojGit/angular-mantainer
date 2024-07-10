@@ -1,0 +1,36 @@
+.accessdenied {
+  background-image: url("../../exception/access-bg.jpg");
+
+  .exception-panel {
+    .exception-code {
+      background-color: #ffb300;
+
+      img {
+        margin-left: -178px;
+      }
+    }
+
+    .exception-icon {
+      background-color: #ffb300;
+    }
+  }
+}
+@media (max-width: 640px) {
+  .exception-body {
+    .exception-panel {
+      left: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+    &.accessdenied {
+      .exception-panel {
+        .exception-code {
+          img {
+            height: 150px;
+            margin-left: -141px;
+          }
+        }
+      }
+    }
+  }
+}

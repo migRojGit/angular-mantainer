@@ -1,0 +1,88 @@
+/* Sidebar */
+
+// $sidebarLogoBgColor:linear-gradient(90deg, rgba(232, 71, 62, 1) 64%, rgba(238, 116, 35, 1) 92%);
+// background color sidebar $sidebarBgColor:linear-gradient(90deg, rgba(232, 71, 62, 1) 64%, rgba(238, 116, 35, 1) 92%);
+// background color panel sidebar
+$sidebarBgColor:#ff453b;
+$sidebarLogoBgColor:#ff453b;
+$darkSidebarBgColor:#424242;
+
+/* Primary */
+
+$primaryColor:rgb(232, 71, 62); //indicador de siidebar fijo
+$primaryDarkColor:#AD1457;
+$primaryLightColor:#F06292;
+$primaryLightestColor:#FCE4EC;
+$primaryTextColor:#ffffff;
+
+/* Accent */
+
+$accentColor:#E8473E;
+$accentLightColor:#E8473E;
+$accentTextColor:#ffffff;
+$accentColorConfuturo:rgba(238, 116, 35, 1);
+
+/* Topbar */
+
+$topbarTextColor:#070707;
+$primaryColorConfuturo:#e4e9e3; //Exclusivo para el navbar
+$topbarIconColor:#000000;
+
+/* Submenu */
+
+$submenuBgColor:#e9840062;
+$darkSubmenuBgColor:#616161;
+$horizontalSubmenuBgColor:#EEEEEE;
+$horizontalDarkSubmenuBgColor:#616161;
+$horizontalSubmenuitemHoverBgColor:#E0E0E0;
+$horizontalSubmenuitemDarkHoverBgColor:#545454;
+$horizontalSubmenuitemDarkHoverTextColor:#ffffff;
+$horizontalMenuActiveTextColor:#ffffff;
+$horizontalMenuActiveHoverTextColor:#212121;
+$horizontalDarkMenuActiveTextColor:#ffffff;
+$horizontalDarkMenuActiveHoverTextColor:#ffffff;
+
+/* Default MenuItem */
+
+$menuitemTextColor:#efefef;
+$menuitemIconTextColor:#f7f1f1;
+
+/* Hover MenuItem */
+
+$menuitemHoverBgColor:#fdfdfd4b;
+$menuitemHoverTextColor:#212121;
+$menuitemHoverIconTextColor:#212121;
+$menuitemHoverIconTextColorConfuturo:rgba(238, 116, 35, 1);
+
+/* Active MenuItem */
+
+$menuitemActiveBgColor:#EE7423;
+$menuitemActiveTextColor:#ffffff;
+$menuitemActiveIconTextColor:#ffffff;
+$subMenuitemActiveTextColor:#000000;
+$subMenuitemActiveIconTextColor:#000000;
+
+/* Dark Default MenuItem */
+
+$darkMenuitemTextColor:#dee0e3;
+$darkMenuitemIconTextColor:#dee0e3;
+
+/* Dark Hover MenuItem */
+
+$darkMenuitemHoverBgColor:#545454;
+$darkMenuitemHoverTextColor:#ffffff;
+$darkMenuitemHoverIconTextColor:#ffffff;
+
+/* Dark Active MenuItem */
+
+$darkMenuitemActiveBgColor:#F06292;
+$darkMenuitemActiveTextColor:#ffffff;
+$darkMenuitemActiveIconTextColor:#ffffff;
+$darksubMenuitemActiveTextColor:#F06292;
+$darksubMenuitemActiveIconTextColor:#F06292;
+
+/*variable test*/
+
+$imperativeLeft: 0px; //comparacion
+$declarateLeft:-275px;
+@import '../../sass/layout/_layout';

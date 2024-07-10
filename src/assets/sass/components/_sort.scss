@@ -1,0 +1,15 @@
+.p-datatable .p-sortable-column.p-highlight {
+  color:$gray;
+}
+.p-datatable .p-sortable-column.p-highlight:hover {
+  color:$gray !important;
+}
+.p-datatable .p-sortable-column.p-highlight:focus {
+  color:$orange-strong !important;
+}
+.p-datatable .p-sortable-column.p-highlight .p-sortable-column-icon {
+  color: $orange-strong !important;
+}
+.p-datatable .p-sortable-column:focus {
+  box-shadow: inset 0 0 0 0.15rem $orange-strong;
+}

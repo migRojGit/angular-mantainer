@@ -1,0 +1,15 @@
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  color:$orange-hover;
+  border-color:$orange-hover;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 0.2rem $orange-focus;
+}
+@media screen and (max-width: 960px){
+  #pr_id_1 .p-datatable-thead > tr > th{
+      display: flex !important;
+  }
+}

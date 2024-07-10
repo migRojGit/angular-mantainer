@@ -1,0 +1,74 @@
+/*ROBOTO*/
+
+@font-face {
+    font-family: robotoBlack;
+    src: url(../../typography/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: robotoBlackItalic;
+    src: url(../../typography/roboto/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url(../../typography/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: robotoBoldItalic;
+    src: url(../../typography/roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: robotoMedium;
+    src: url(../../typography/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: robotoMediumItalic;
+    src: url(../../typography/roboto/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url(../../typography/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoItalic;
+    src: url(../../typography/roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url(../../typography/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: robotoLightItalic;
+    src: url(../../typography/roboto/Roboto-LightItalic.ttf);
+}
+
+$title-font-roboto-black: robotoBlack,
+sans-serif;
+$title-font-roboto-black-italic: robotoBlackItalic,
+sans-serif;
+$title-font-roboto-bold: robotoBold,
+sans-serif;
+$title-font-roboto-bold-italic: robotoBoldItalic,
+sans-serif;
+$title-font-roboto-medium: robotoMedium,
+sans-serif;
+$title-font-roboto-medium-italic: robotoMediumItalic,
+sans-serif;
+$title-font-roboto-regular: robotoRegular,
+sans-serif;
+$title-font-roboto-italic: robotoItalic,
+sans-serif;
+$title-font-roboto-light: robotoLight,
+sans-serif;
+$title-font-roboto-light-italic: robotoLightItalic,
+sans-serif;
+$text-paragraph: arial,
+helvetica;

@@ -1,0 +1,37 @@
+.td-table{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+
+  .row-number{
+    background-color: $gray;
+    width: 40px;
+    height: 40px;
+    color:$white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  .row-data{
+    display: flex;
+    flex-direction: column;
+
+    .title-table{
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 3px;
+    }
+    .date-table{
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+    .paragraph-table{
+      font-size:1.1em;
+    }
+  }
+}

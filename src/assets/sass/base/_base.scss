@@ -1,0 +1,41 @@
+h1{
+	font-family: $title-font-roboto-black;
+  color: $gray;
+  margin: 0;
+  padding: 0;
+  font-size:2em;
+}
+h2{
+  font-size: 1.6em;
+  padding: 20px 0;
+}
+h3{
+  font-size: 1.4em;
+  padding: 20px 0;
+}
+h2,h3,h4,h5,h6{
+  font-family:$title-font-roboto-bold;
+  color: $gray;
+}
+body{
+	font-family: $text-paragraph;
+}
+
+p{
+  color:$gray;
+}
+li{
+  color:$gray;
+}
+img{
+	max-width:100%;
+}
+
+a{
+   text-decoration: none;
+}
+label, input, textarea{
+	display: block;
+}
+
+

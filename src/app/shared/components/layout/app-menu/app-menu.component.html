@@ -1,0 +1,24 @@
+<div class="layout-sidebar" [ngClass]="{'layout-sidebar-active': app.sidebarActive, 'layout-sidebar-dark': app.darkMenu}" (click)="app.onSidebarClick($event)" (mouseover)="app.sidebarActive=true" (mouseleave)="app.sidebarActive=false">
+    <div class="sidebar-logo">
+        <a href="#">
+            <img class="sidebar-logo" alt="logo" src="assets/img/confuturo__white.svg" />
+            <!-- <span class="app-name">Confuturo</span> -->
+        </a>
+        <i href="#" class="sidebar-anchor" title="Toggle Menu" (click)="app.onToggleMenuClick($event)"></i>
+    </div>
+    <div class="sidebar-avatar">
+        <div class="avatar-img">
+            <img class="find-avatar" src="../../../../assets/img/avatar_scarlett.jpg" alt="">
+        </div>
+        <div class=" avatar-name ">
+            <p>Scarlett Johanson</p>
+        </div>
+        <div class="avatar-responsability ">
+            <p>Ejecutiva Mantención de Cartera</p>
+        </div>
+    </div>
+    <ul class="layout-menu " (click)="onMenuClick() ">
+        <li app-menuitem *ngFor="let item of model; let i=index; " [item]="item " [index]="i " [root]="true "></li>
+
+    </ul>
+</div>
